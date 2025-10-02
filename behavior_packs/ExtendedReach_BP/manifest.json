@@ -1,0 +1,24 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Extended Reach",
+    "description": "Melee attacks can hit up to 10 blocks away",
+    "uuid": "a3c1f6c0-9b2d-4c9b-8a1a-7f1c2b3d4e5f",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "uuid": "b4d2f6c0-8a7b-4d9c-9a2b-1c2d3e4f5a6b",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.13.0"
+    }
+  ]
+}
